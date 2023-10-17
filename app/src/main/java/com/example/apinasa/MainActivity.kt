@@ -41,6 +41,8 @@ class MainActivity : AppCompatActivity() {
             calendar.set(year, month, dayOfMonth)
             loadPictureOfDay(calendar.time)
         }
+        loadPictureOfDay(Calendar.getInstance().time)
+
     }
 
     private fun loadPictureOfDay(day: Date) {
@@ -57,7 +59,10 @@ class MainActivity : AppCompatActivity() {
                 if (!TextUtils.isEmpty(response)) {
                     try {
                         val gson = Gson()
-                        val pictureOfTheDay: PictureOfTheDay = gson.fromJson(response, PictureOfTheDay::class.java)
+
+                        val pictureOfTheDay: PictureOfTheDay = gson.fromJson(response,
+                            PictureOfTheDay::class.java)
+
 
                         // Set the image of the ImageView
                         val imageUrl = pictureOfTheDay.url
