@@ -40,13 +40,9 @@ My chosen API for this project is **Nasa API: APOD**.
 
 Here's a video / GIF that demos all of the app's implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Demo' width='' alt='Video Demo' />
+<img src='https://i.imgur.com/xs7pFko.gif' title='Video Demo' width='' alt='Video Demo' />
 
 GIF created with **your chosen GIF tool**
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/zfQPp9Z"  >
-<a href="//imgur.com/a/zfQPp9Z">Project 5: Choose your own API</a></blockquote>
-<script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
-
 <!-- Recommended tools:
 - [Kap](https://getkap.co/) for macOS
 - [ScreenToGif](https://www.screentogif.com/) for Windows
